@@ -9,7 +9,7 @@ namespace AdventCode1
     {
         public Depths DepthFile(string depthFile)
         {
-            return new Depths(new DataFile(File.ReadAllLines(depthFile)).GetAsNumbers());
+            return new Depths(new DataFile(File.ReadAllLines(depthFile)).GetAsGroupedInt());
         }
     }
     
@@ -49,6 +49,17 @@ namespace AdventCode1
         {
             return _contents.ConvertAll((Convert.ToInt32));
         }
-        
+
+        public List<int> GetAsGroupedInt()
+        {
+            var i = GetAsNumbers();
+            var r = new List<int>();
+            for (int j = 0; j < i.Count - 2; j++)
+            {
+                r.Add(i[j] + i[j + 1] + i[j + 2] );;
+            }
+
+            return r;
+        }
     }
 }

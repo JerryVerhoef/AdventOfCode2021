@@ -27,5 +27,7 @@ namespace AdventCode1Test
             Depths depths = new Depths(l);
             Assert.AreEqual(0, depths.GetAmountOfIncreases());
         }
+
+
     }
 }

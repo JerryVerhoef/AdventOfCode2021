@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventCode1", "AdventCode1\AdventCode1.csproj", "{8D8C66E9-1A26-46D6-98AD-CF8C4B4AB676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventCode1Test", "AdventCode1Test\AdventCode1Test.csproj", "{3E4FF1CB-3C01-4E98-990C-D95DD547297D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D8C66E9-1A26-46D6-98AD-CF8C4B4AB676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8C66E9-1A26-46D6-98AD-CF8C4B4AB676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8C66E9-1A26-46D6-98AD-CF8C4B4AB676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8C66E9-1A26-46D6-98AD-CF8C4B4AB676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E4FF1CB-3C01-4E98-990C-D95DD547297D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4FF1CB-3C01-4E98-990C-D95DD547297D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4FF1CB-3C01-4E98-990C-D95DD547297D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4FF1CB-3C01-4E98-990C-D95DD547297D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -12,6 +12,8 @@ namespace AdventCode2
             
             var sub = new SubMarine(new DataFile(File.ReadAllLines(InputFile)).GetMoves());
             Console.WriteLine(sub.GetTravelDistance());
+            var subWithAim = new SubMarine(new DataFile(File.ReadAllLines(InputFile)).GetMoves(), true);
+            Console.WriteLine(subWithAim.GetTravelDistance());
         }
     }
 }

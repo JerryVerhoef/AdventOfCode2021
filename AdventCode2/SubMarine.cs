@@ -5,44 +5,59 @@ namespace AdventCode2
     public class SubMarine
     {
         private List<Move> _actions;
-        public SubMarine(List<Move> actions)
+        
+        public int Distance { get; private set; }
+        public int Depth { get; private set; }
+
+        private int aim = 0;
+
+        public SubMarine(List<Move> actions, bool withAim = false)
         {
             _actions = actions;
+            ProcessMoves(withAim);
         }
-        
-        public int GetForwardDistance()
+
+        private void ProcessMoves(bool withAim)
         {
-            int distance = 0;
             foreach (var action in _actions)
             {
                 if (action.direction == Direction.Forward)
                 {
-                    distance += action.amount;
+                    Distance += action.amount;
+                    if (withAim)
+                    {
+                        Depth += aim * action.amount;
+                    }
                 }
-            }
-            return distance;
-        }
-
-        public int GetDepth()
-        {
-            int depth = 0;
-            foreach (var action in _actions)
-            {
-                if (action.direction == Direction.Up)
+                else if (action.direction == Direction.Up)
                 {
-                    depth -= action.amount;
+                    if (withAim)
+                    {
+                        aim -= action.amount;
+                    }
+                    else
+                    {
+                        Depth -= action.amount;    
+                    }
+
                 }
                 else if (action.direction == Direction.Down ) 
                 {
-                    depth += action.amount;
+                    if (withAim)
+                    {
+                        aim += action.amount;
+                    }
+                    else
+                    {
+                        Depth += action.amount;    
+                    }
                 }
             }
-            return depth;
         }
 
         public int GetTravelDistance()
         {
-            return GetForwardDistance() * GetDepth();
+            return Distance * Depth;
         }
     }
 }

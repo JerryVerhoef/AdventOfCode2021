@@ -2,6 +2,8 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8fd4913d_002D0ee1_002D4282_002D89e0_002D2ca15755c479/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="FileTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::3E4FF1CB-3C01-4E98-990C-D95DD547297D::net6.0::AdventCode1Test.FileTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE52303D-1500-4D18-B438-E6D16E325558::net6.0::AdventCode2Test.DataFileTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE52303D-1500-4D18-B438-E6D16E325558::net6.0::AdventCode2Test.SubMarineTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e6d1d8c1_002D5ac7_002D4283_002D9e6d_002Da41bbca182c1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

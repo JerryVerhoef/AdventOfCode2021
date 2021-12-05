@@ -7,6 +7,11 @@
     &lt;TestId&gt;NUnit3x::F0C2AB5D-BB33-4BCC-932D-B8FE28373AF3::net6.0::AdventCode3Test.Tests.TestItWillReturnTheConvertedData&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e6d1d8c1_002D5ac7_002D4283_002D9e6d_002Da41bbca182c1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cc2d3229_002Dfdd7_002D4dbf_002D918e_002D11e1e3e91e08/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestItWilFindTheMostCommonAtIndex" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F0C2AB5D-BB33-4BCC-932D-B8FE28373AF3::net6.0::AdventCode3Test.Part2Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e6d1d8c1_002D5ac7_002D4283_002D9e6d_002Da41bbca182c1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
